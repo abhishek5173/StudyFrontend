@@ -15,3 +15,6 @@
 3. Token handling and Axios Authorization in utils/axiosInstance.ts - You add an Axios Request Interceptor, which automatically attaches the token:
 
 **********************************************End*******************************************
+
+1. Seeting Up Dashboard Page and App UI
+2. 
