@@ -197,6 +197,14 @@ export default function RegisterPage() {
           >
             Sign In
           </button>
+
+          <button
+            type="button"
+            onClick={() => router.replace("/")}
+            className="w-full mt-2 py-3 bg-gray-50 text-gray-700 font-semibold rounded-xl border border-gray-200 hover:bg-gray-100 hover:border-gray-300 transition-all duration-200"
+          >
+            Home
+          </button>
         </div>
 
         {/* Terms */}

@@ -16,5 +16,5 @@
 
 **********************************************End*******************************************
 
-1. Seeting Up Dashboard Page and App UI
+1. Setting Up Dashboard Page and App UI
 2. 
