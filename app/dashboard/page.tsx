@@ -182,7 +182,7 @@ export default function DashboardPage() {
               {filteredDocuments.map((doc) => (
                 <div
                   key={doc._id}
-                  onClick={() => router.push(`/documents/${doc._id}`)}
+                  onClick={() => router.push(`/document/${doc._id}`)}
                   className="group bg-white rounded-xl border border-gray-200 p-6 hover:shadow-xl hover:border-indigo-200 transition-all duration-200 cursor-pointer"
                 >
                   <div className="flex items-start justify-between mb-4">
