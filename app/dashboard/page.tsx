@@ -204,8 +204,8 @@ export default function DashboardPage() {
                   <div className="flex items-center gap-2 text-sm text-gray-500">
                     <Clock className="w-4 h-4" />
                     <span>
-                      {doc.updatedAt
-                        ? new Date(doc.updatedAt).toLocaleDateString()
+                      {doc.createdAt
+                        ? new Date(doc.createdAt).toLocaleDateString()
                         : "Recently"}
                     </span>
                   </div>
@@ -240,7 +240,7 @@ export default function DashboardPage() {
 
         {/* Create Document Modal */}
         {showCreateModal && (
-          <div className="fixed inset-0 bg-black bg-opacity-50 flex items-center justify-center p-6 z-50">
+          <div className="fixed inset-0 bg-opacity-10 backdrop-blur-xs flex items-center justify-center p-6 z-50">
             <div className="bg-white rounded-2xl shadow-2xl max-w-md w-full p-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">
                 Create New Document
@@ -261,7 +261,7 @@ export default function DashboardPage() {
                   value={newTitle}
                   onChange={(e) => setNewTitle(e.target.value)}
                   onKeyDown={(e) => e.key === "Enter" && createDocument()}
-                  className="w-full px-4 py-3 bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
+                  className="w-full px-4 py-3 text-black bg-gray-50 border border-gray-200 rounded-xl focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:border-transparent transition-all"
                 />
               </div>
 
