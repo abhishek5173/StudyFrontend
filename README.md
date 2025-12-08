@@ -18,7 +18,7 @@
 
 1. Setting Up Dashboard Page and App UI
 
-*****************************EDITOR SETUP*************************************************
+*****************************EDITOR SETUP************************************************* 
 
 1. npm install quill
 2. Create QuillEditor.tsx in components
