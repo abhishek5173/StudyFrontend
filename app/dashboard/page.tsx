@@ -39,7 +39,7 @@ export default function DashboardPage() {
 
   // Fetch documents
   const fetchDocuments = async () => {
-    try {
+    try { 
       const res = await axiosInstance.get("/documents");
       setDocuments(res.data);
     } catch (err) {
